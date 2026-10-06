@@ -1,0 +1,46 @@
+{
+  "name": "PFP Pétanque App",
+  "short_name": "PFP App",
+  "description": "Polska Federacja Pétanque – rankingi, turnieje, wyniki na żywo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a4fa8",
+  "orientation": "any",
+  "lang": "pl",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["sports"],
+  "shortcuts": [
+    {
+      "name": "Rankingi",
+      "url": "/#/rankings",
+      "description": "Aktualne rankingi PFP"
+    },
+    {
+      "name": "Turnieje",
+      "url": "/#/tournaments",
+      "description": "Nadchodzące turnieje"
+    }
+  ]
+}
